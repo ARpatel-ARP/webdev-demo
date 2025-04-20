@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selectors</title>
+    <style>
+        /* class selector */
+        .red{
+            background-color: rgb(255, 166, 0);
+
+        }
+        /* id selector  */
+        #green{
+            background-color: rgb(60, 88, 60);
+        }
+        /* Child selectors */
+        div > p {
+            color: beige;
+            background-color: grey;
+        
+        }
+        /* descendant selector  */
+        div p{
+            color: rgb(222, 222, 54);
+            background-color: grey
+
+        }
+        /* Universal selectors  */
+        *{
+            margin: 0%;
+            padding: 7%;
+        }
+        /* pseudo selector  */
+        a:visited{
+            color: rgb(136, 75, 0);
+        }
+        a:link{
+            color: red;
+        }
+        a:active{
+            background-color: grey;
+        }
+        a:hover{
+            background-color: black;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="red" >
+        jai aryavart
+        <p> Aryavart the father of world </p>
+
+    </div>
+    <div id="green">
+        jai hindurashtra <br>
+        glory to hanuman
+
+    </div>
+    <a href="https://www.instagram.com/raut_.rage_/"> GO to my insta handle </a>
+    <a href="https://www.amazon.com/pwa"> Go to AMazon </a>
+
+
+    
+</body>
+</html>
