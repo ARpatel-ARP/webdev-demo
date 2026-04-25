@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOUNCE animations</title>
+    <style>
+
+     .container {
+        background-color: rgb(135, 135, 135);
+        height: 500px;
+        width: 1200px;
+        border: 10px;
+        position: relative;
+        background-image:url(https://i.pinimg.com/736x/a7/bc/69/a7bc69f1bccbd6c3bc97022d97bae006.jpg);
+        background-position: center;
+        background-size: cover;
+        backface-visibility: 70%;
+     }
+    .ball {
+        border-radius: 40px ;
+        border: 2px solid black ;
+        background-color: black;
+        width: 50px;
+        height: 50px;
+        color: antiquewhite;
+        position:absolute;
+        bottom: 0;
+        left: 0;
+        animation: yaxis 1s ease-out infinite alternate , xaxis 5s linear infinite ;
+        
+        
+
+    }
+    
+    @keyframes yaxis {
+        from{
+            bottom: 0%;
+
+        }
+        to{
+            bottom: 440px;
+        }
+        
+    }
+    @keyframes xaxis {
+        from{
+            left: 0%;
+        }
+        to{
+            left: 1100px;
+        }
+        
+    }
+    
+    
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="ball">
+            O
+        </div>
+    </div>
+    
+</body>
+</html>

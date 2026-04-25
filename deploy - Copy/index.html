@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify.clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="icon" sizes="32x32" type="image/png"
+        href="https://open.spotifycdn.com/cdn/images/favicon32.b64ecc03.png">
+</head>
+
+<body>
+    <div class="container flex">
+        <div class="left border">
+            <div class="close">
+                <img class="invert" src="cross-svgrepo-com.svg" width="23" alt="">
+            </div>
+            <div class="home">
+                <div class="logo flex "><img src="logo.svg" width="35px" alt="Spotify"> <b></b>Spotify.cl
+                </div>
+                <p> Clone version of spotify</p>
+            </div>
+            <div class="library border">
+                <div class="title">
+                    <img src="https://cdn-icons-png.flaticon.com/128/2908/2908601.png" width="30" alt="">
+                    <h2>Your Library</h2>
+                </div>
+
+                <div class="songlist">
+                    <ul>
+
+
+                    </ul>
+                </div>
+                <div class="footer">
+                    <div class="lines">
+                        <div>
+                            <a href="https://www.spotify.com/in-en/legal/" data-encore-id="textLink">
+                                <span data-encore-id="type">Legal</span>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://www.spotify.com/in-en/safetyandprivacy/" data-encore-id="textLink">
+                                <span data-encore-id="type">Safety &amp; Privacy Center</span>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://www.spotify.com/in-en/legal/privacy-policy/" data-encore-id="textLink">
+                                <span data-encore-id="type">Privacy Policy</span>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://www.spotify.com/in-en/legal/cookies-policy/" data-encore-id="textLink">
+                                <span data-encore-id="type">Cookies</span>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3" data-encore-id="textLink">
+                                <span data-encore-id="type">About Ads</span>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://www.spotify.com/in-en/accessibility/" data-encore-id="textLink">
+                                <span data-encore-id="type">Accessibility</span>
+                            </a>
+                        </div>
+                    </div>
+                    <a draggable="false" href="https://www.spotify.com/legal/cookies-policy/" target="_blank"
+                        rel="noopener">
+
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="right border">
+            <div class="header flex">
+                <div class="nav">
+                    <div class="hb">
+                        <div class="hamburger">
+
+                            <img class="invert" width="23" src="hamburger-lg-svgrepo-com.svg" alt="">
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button class="Install"> <img src="https://www.svgrepo.com/show/308540/download-button-download.svg"
+                            width="20" alt="download">
+                        Install app </button>
+                    <button class="Sign-Up">Sign up</button>
+                    <button class="Log-In">Log-In</button>
+                </div>
+            </div>
+            <div class="playlist">
+                <h2>Spotify Playlists</h2>
+                <div class="cardcontainer">
+                    <div data-folder="ncs" class="card">
+                        <img class="card1" src="album1.jpg" width="233" alt="">
+                        <h3>Recently-Played</h3>
+                        <p>Collection of her voices </p>
+                        <img class="play" src="https://www.svgrepo.com/show/135829/play-button.svg" width="23" alt="play">
+                    </div>
+                </div>
+            </div>
+
+             <div class="playbar">
+                    <div class="seekbar">
+                        <div class="circle">
+
+                        </div>
+                    </div>
+                    <div class="abovebar">
+                        <div class="songinfo">
+                        </div>
+                        <div class="songbuttons">
+                            <img width="30" id="previous" src="previous.png" alt="">
+                            <img width="28" id="play" src="play.svg" alt="">
+                            <img width="30" id="next" src="next.png" alt="">
+                        </div>
+                        <div class="timevol">
+                        <div class="songtime">
+
+                        </div>
+                        <div class="volume">
+                            <img width="25" src="volume.svg" alt="">
+                            <div class="range">
+                                <input type="range" name="volume">
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+    </div>
+</body>
+
+</html>

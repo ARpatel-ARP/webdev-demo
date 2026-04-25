@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transitions</title>
+    <style>
+        .container{
+            background-color: beige;
+            width: 60vw;
+            height: 40vh;
+        }
+        .box{
+            background-color: aquamarine;
+            width: 6vw;
+            height: 4vh;
+            /* transition-property: transform ;
+            transition-duration: 3s ;
+            transition-timing-function: ease-in;
+            transition-delay: 1s ; */
+            /* /* shorthand for transitions tran; */
+            transition: all 3s cubic-bezier(0.67, -0.09, 0.58, 1) 1s;
+        }
+        .translate{
+            transform: translateX(30vw) translateY(20vh);
+            background-color: rgb(179, 179, 76) ;
+
+
+        }
+
+    </style>
+</head>
+<body>
+    <title> THE transitions
+    </title>
+    <div class="container ">
+        <div class="box translate">
+
+        </div>
+    </div>
+    
+</body>
+</html>

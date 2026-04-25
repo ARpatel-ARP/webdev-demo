@@ -1,0 +1,8 @@
+.card{
+    width: 20vw;
+    border: 1px solid rgb(106, 103, 103);
+    text-align: center;
+    margin: 15px;
+    height: 12vh;
+    padding: 10px;
+}

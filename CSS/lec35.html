@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS selectors more</title>
+    <style>
+        /* .boxes{
+            colo4r
+        }
+        .box:first-child{
+            background-color: rgb(124, 3, 3);
+            color:;
+        }
+        .box::first-line{
+            background-color: beige;
+            color: rgb(148, 4, 148);
+
+        } */
+        /* .boxes *{
+            color: rgb(69, 90, 0);
+            background-color: azure;
+            border: 2px solid black;
+
+        }
+        .box,[data-color="primary"] {
+            padding-top: 55px;
+
+
+        } */
+         /* .box:nth-child(odd){ */
+            /* background-color: rgb(235, 74, 208); */
+         /* } */
+         .box:nth-last-child(1){
+            background-color: brown;
+         }
+         .boxes::before{
+            content: "rautjii says";
+         }
+         .boxes::after {
+            content: "rautjii says";
+         }
+         ::selection{
+            background-color: beige;
+         }
+         .box::first-letter{
+            color: peru;
+            font-size: x-large;
+         }
+         input::placeholder{
+            color: aqua;
+         }
+    </style>
+</head>
+<body>
+    <div class="boxes">
+        <div data-color="primary" class="box">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod libero, sequi reiciendis iusto repellendus et omnis temporibus! Totam omnis cumque nemo deleniti officia, obcaecati voluptatem vitae temporibus quam sint ipsum amet fugiat. Odio laborum non omnis facilis, quisquam sapiente ipsam aut in alias, dolore quo!</div>
+        <div class="box">Radhe Radhe</div>
+        <div class="box">Har Har Mahadev</div>
+        <input type="text" placeholder="type.....">
+    </div>
+</body>
+</html>

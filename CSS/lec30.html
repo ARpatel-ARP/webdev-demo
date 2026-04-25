@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS variables</title>
+    <style>
+        :root{
+            --color:rgb(225, 253, 86);
+            --seccolor:rgb(246, 251, 219);
+            --defop:0.2;
+        }
+        ul li{
+            background-color: var(--color);
+            font: 900;
+            color: black;
+            font-size: x-large;
+            margin: 30px;
+
+
+        }
+        ul li:first-child{
+            opacity: var(--defop);
+             --color:rgb(208, 161, 231);
+             background-color: var(--color);
+        
+        }
+        span {
+            background-color:var(--seccolor);
+            font-size: larger;
+            
+
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <ul>
+            <li>mile to tum kabhi nahi</li>
+            <li>meri hasrat kyu bhadakayi bewajah</li>
+        </ul>
+        <span>
+            jo tu na ho to esa me chehra ke jiski khubsurati maand bhari ho
+        </span>
+    </div>
+    
+</body>
+</html>

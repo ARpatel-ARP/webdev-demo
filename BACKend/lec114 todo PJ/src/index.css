@@ -1,0 +1,7 @@
+@import "tailwindcss";
+button:hover{
+  border: 1px solid aqua;
+  
+
+
+}

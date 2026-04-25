@@ -1,0 +1,22 @@
+body{
+  background-color: rgb(162, 162, 126);
+}
+.card{
+border: 1px solid black;
+
+background-color: rgb(255, 255, 186);
+ max-width: 40vw ;
+ padding: 20px;
+ margin-left: 25vw;
+ margin-block: 2vw ;
+}
+
+nav, ul{
+  display: flex;
+  font-weight: bold;
+  gap: 30px;
+  border-radius: 15px;
+  padding-left: 20vw;
+  background-color: rgb(189, 159, 82);
+  max-width: 100%;
+}  
